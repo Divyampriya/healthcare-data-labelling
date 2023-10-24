@@ -1,0 +1,12 @@
+# Create a dictionary with departments as keys and the doctors they contain as values.
+hospital_detail={ 'Aesthetic_Cosmetic Surgery' : 'Earthly',
+                  'Advanced_care' : 'Saha',
+                  'Critical_Care_Medicine' :'Rona',
+                  "Allergic_disease" : "quenus",
+                  "Anesthesiology_Perioperative" : "Mercury",
+                  "Critical_Care_Medicine" :"Sona",
+                  "Allergic_disease" : "venus",                 
+}
+hospital_detail["Cardiothoracic"]="Mauo"
+print(hospital_detail)
+print('Allergic_disease' in hospital_detail )
